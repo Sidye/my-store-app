@@ -1,0 +1,23 @@
+/* src/App.css */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f4f7f6; /* Легкий фон для всего приложения */
+    color: #333;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  /* Можно добавить другие общие стили для всего приложения здесь */
+  .App {
+      /* Например, если нужен контейнер с максимальной шириной */
+      /* max-width: 1400px; */
+      /* margin: 0 auto; */
+  }

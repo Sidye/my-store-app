@@ -1,0 +1,46 @@
+/* src/pages/NotFoundPage.css */
+.not-found-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Занять большую часть экрана */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .not-found-page h1 {
+    font-size: 2.5em;
+    color: #dc3545; /* Красный для акцента на ошибке */
+    margin-bottom: 15px;
+  }
+  
+  .not-found-page p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .link-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007bff; /* Синий цвет кнопки */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.2s ease;
+  }
+  
+  .link-button:hover {
+    background-color: #0056b3; /* Более темный синий при наведении */
+  }
+  
+  @media (max-width: 600px) {
+    .not-found-page h1 {
+      font-size: 2em;
+    }
+    .not-found-page p {
+      font-size: 1em;
+    }
+  }

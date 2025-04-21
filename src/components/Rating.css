@@ -1,0 +1,23 @@
+/* src/components/Rating.css */
+.rating {
+    display: flex;
+    align-items: center;
+    color: #ccc; /* Цвет пустых звезд */
+    font-size: 1.2em; /* Размер звезд */
+  }
+  
+  .star {
+    cursor: default;
+    margin-right: 2px;
+  }
+  
+  .star.filled {
+    color: #f8d64e; /* Цвет заполненных звезд */
+  }
+  
+  .rating-value {
+      margin-left: 8px;
+      font-size: 0.9em;
+      color: #555;
+  }
+  

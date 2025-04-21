@@ -1,0 +1,46 @@
+/* src/pages/ProductListPage.css */
+.product-list-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Центрирование контейнера */
+  }
+  
+  .product-list-page h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+  }
+  
+  .product-grid {
+    display: grid;
+    /* Адаптивные колонки: минимум 200px, максимум 1fr */
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px; /* Расстояние между карточками */
+  }
+  
+  .status-message {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 40px;
+    color: #555;
+  }
+  
+  .error-message {
+      color: #d9534f; /* Красный цвет для ошибок */
+      font-weight: bold;
+  }
+  
+  /* Стили для мобильных устройств */
+  @media (max-width: 600px) {
+    .product-grid {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 15px;
+    }
+    .product-list-page {
+      padding: 10px;
+    }
+     .product-list-page h1 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+  }
