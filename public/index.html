@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Иконка для вкладки браузера -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- Настройка области просмотра для адаптивности -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Цвет темы для мобильных браузеров -->
+    <meta name="theme-color" content="#000000" />
+    <!-- Базовое описание сайта -->
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <!-- Иконка для Apple устройств -->
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      Ссылка на манифест для Progressive Web App (PWA) возможностей.
+      См. https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      %PUBLIC_URL% будет заменен на URL папки public во время сборки.
+      Это нужно для правильного указания путей к файлам из папки public.
+    -->
+    <!-- Заголовок страницы, который виден во вкладке браузера -->
+    <title>React App</title> <!-- Можешь изменить на "My Store App" или что-то другое -->
+  </head>
+  <body>
+    <!-- Сообщение для пользователей с отключенным JavaScript -->
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!--
+      ***********************************************************
+      * ВОТ САМЫЙ ВАЖНЫЙ ЭЛЕМЕНТ для React!                     *
+      * Сюда React будет монтировать все твое приложение.        *
+      * Убедись, что он есть и id="root".                      *
+      ***********************************************************
+    -->
+    <div id="root"></div>
+
+    <!--
+      Этот HTML файл является шаблоном.
+      При запуске (`npm start`) или сборке (`npm run build`),
+      React Scripts автоматически вставит теги <script> сюда,
+      чтобы загрузить твой скомпилированный JavaScript код.
+    -->
+  </body>
+</html>
